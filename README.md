@@ -16,6 +16,14 @@ npm install
 SET DEBUG=sp-test-server:* & npm start
 ```
 
+## 클라이언트 - 서버 테스트 방법
+
+1. 서버 실행
+2. 클라이언트 내 설정 > Debug mode 활성화
+3. 활성화 후 Service url를 "http://(테스트 서버 IP):3000"으로 설정
+4. 클라이언트 메인에서 이미지 추가 후 전송
+5. 클라이언트에서 결과 화면과 함께 "Success!" 문구가 보인다면 성공
+
 ## 라우터 정보
 
 > POST /process
